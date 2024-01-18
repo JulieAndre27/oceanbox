@@ -59,3 +59,18 @@ pip install -r requirements.txt
 # pip install -r requirements_adaptative.txt
 jupyter notebook oceanbox.ipynb # this opens a new window with Jupyter. If not, you can click on the link.
 ```
+
+
+## To re-open this project later
+### Linux and Mac
+Go back to your folder oceanbox, and activate the environnement before running the notebook:
+```
+cd oceanbox
+source venv/bin/activate
+jupyter notebook oceanbox.ipynb
+```
+### Windows
+Same, but activate the virtual environnement with :
+```
+venv\Scripts\activate
+```
