@@ -4,7 +4,7 @@ This repository contains a Jupyter notebook used for a computer tutorial for the
 
 The goal is to illustrate potential mechanisms for millenial-scale variability in the ocean using simple box models of the buoyancy-driven circulation.
 
-The original files have been prepared by Corentin Herbert in a joint work to prepare climate tutorials between ENS and ENS de Lyon.
+The original files have been prepared by Corentin Herbert in a joint work to prepare climate tutorials between ENS and ENS de Lyon. The tutorial has been improved by Freddy Bouchet and Julie André.
 
 ## How to use
 
@@ -58,4 +58,25 @@ pip install -r requirements.txt
 # ^ if you have an old python version and this last line doesn't work:
 # pip install -r requirements_adaptative.txt
 jupyter notebook oceanbox.ipynb # this opens a new window with Jupyter. If not, you can click on the link.
+```
+
+
+## To re-open this project later
+### Linux and Mac
+Go back to your folder oceanbox, and activate the environnement before running the notebook:
+```
+cd oceanbox
+source venv/bin/activate
+jupyter notebook oceanbox.ipynb
+```
+### Windows
+Same, but activate the virtual environnement with :
+```
+venv\Scripts\activate
+```
+
+## Solution
+A correction is provided, in the form of an other Jupyter Notebook. To open it, do:
+```
+jupyter notebook oceanbox_solutionF.ipynb
 ```
