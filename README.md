@@ -74,3 +74,9 @@ Same, but activate the virtual environnement with :
 ```
 venv\Scripts\activate
 ```
+
+## Solution
+A correction is provided, in the form of an other Jupyter Notebook. To open it, do:
+```
+jupyter notebook oceanbox_solutionF.ipynb
+```
